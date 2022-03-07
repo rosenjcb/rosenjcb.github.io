@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
-  assetPrefix: isProd ? '/rosenjcb/' : '',
+  assetPrefix: '/rosenjcb',
   reactStrictMode: true,
   images: {
     loader: 'akamai',
